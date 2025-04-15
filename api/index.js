@@ -1,5 +1,5 @@
 // /api/instagram.js
-import instagramGetUrl from 'instagram-url-direct';
+import {instagramGetUrl} from 'instagram-url-direct';
 
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
